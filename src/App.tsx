@@ -24,7 +24,7 @@ const HOUSES_QUESTIONS = [
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainMenu />} />
+      <Route path="/harry-potter-qz/" element={<MainMenu />} />
       <Route
         path="/characters-quiz"
         element={
