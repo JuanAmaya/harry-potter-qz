@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #faf3e1;
+  --color-accent: #bc0303;
+  --color-wrong-answer: #9f273a;
+  --color-correct-answer: #226c5c;
+  --color-main: #584a28;
+  --color-soft: #ddd6c6;
+}
+
+:root {
+  font-family: "Sofia Sans", sans-serif, "Roboto";
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-main);
+}
