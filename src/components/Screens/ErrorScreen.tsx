@@ -39,7 +39,7 @@ export default function ErrorScreen() {
           </button>
         </motion.li>
         <motion.li variants={itemVariants}>
-          <IconButton icon={<Menu />} title="Menu" url="/" />
+          <IconButton icon={<Menu />} title="Menu" url="/harry-potter-qz/" />
         </motion.li>
       </motion.ul>
     </div>
